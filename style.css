@@ -1,0 +1,337 @@
+/*Index page*/
+
+body{
+    background-image: url("assets/css/pipes.png");
+}
+
+header{
+    background-color:#ffffff;
+    width: 100%;
+    border-bottom:1px solid #cccccc;  
+    height: 68px;  
+}
+
+#name{
+    background-color:teal ;
+    color:white;
+    margin-left:11%;
+    width:150px;
+    text-align: center;
+    float: left
+}
+
+nav{
+    float: left;
+    margin-left: 50%;
+    margin-top: 2%;
+
+}
+
+#about{
+    width: 960px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 0.5px solid #cccccc;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+    clear: both;
+}
+
+#aboutme{
+    color:teal;
+    border-bottom:2px solid #cccccc;  
+}
+
+#aboutMeImage{
+    transform: rotate(90deg);
+}
+
+#paragraph{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12;
+}
+
+div p{
+    color: #777777;
+}
+
+footer{
+    background-color: #666666;
+    width: 100%;
+    height: 75px;
+    margin-top: 100px;
+}
+
+footer section{
+    background-color: teal;
+    width: 100%;
+    height: 5px;
+}
+
+h6{
+    color:white;
+    text-align: center;
+}
+
+
+/*Portfolio page*/
+
+#aboutportfolio{
+    width: 960px;
+    height: 1000px;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 0.5px solid #cccccc;
+    margin: auto;
+    margin-top: 50px;
+    overflow: auto;
+    clear: both;
+
+}
+
+#portfolio{
+
+    color:teal;
+    border-bottom:2px solid #cccccc;  
+
+}
+
+.hangman{
+    position:absolute;
+    z-index: 1;
+    float: left;
+}
+
+#hangmanword{
+
+    background-color: teal;
+    color: white;
+    width: 250px;
+    height:30px;
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    margin-top:175px;
+}
+
+.rpg{
+    position:absolute;
+    z-index: 1;
+    float: left;
+}
+
+#rpgword{
+    
+    background-color: teal;
+    color: white;
+    width: 250px;
+    height:30px;
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    margin-top:175px;
+}
+#rpg{
+    margin-left: 350px;
+}
+
+.trivia{
+    position:absolute;
+    z-index: 1;
+    float: left;
+}
+
+#triviaword{
+
+    background-color: teal;
+    color: white;
+    width: 250px;
+    height:30px;
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    margin-top:175px;
+
+}
+
+#trivia{
+    margin-top: 350px;
+}
+
+.rutgers{
+    position:absolute;
+    z-index: 1;
+    float: left;
+}
+
+#rutgersword{
+    
+    background-color: teal;
+    color: white;
+    width: 250px;
+    height:30px;
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    margin-top:175px;
+}
+#rutgers{
+    margin-left: 350px;
+    margin-top: 350px;
+}
+
+.rock{
+    position:absolute;
+    z-index: 1;
+    float: left;
+}
+
+#rockword{
+    
+    background-color: teal;
+    color: white;
+    width: 250px;
+    height:30px;
+    padding: 25px;
+    text-align: center;
+    position: absolute;
+    z-index: 2;
+    margin-top:175px;
+}
+#rock{
+    margin-top: 700px;
+}
+
+/*Contact*/
+
+#contact2{
+    
+    color:teal;
+    border-bottom:2px solid #cccccc;  
+}
+
+.col-md-6{
+    color: #777777;
+}
+
+#nameFillOut{
+    width:100%;
+    border-color: #cccccc;
+}
+
+#email{
+    width:100%;
+    border-color: #cccccc;
+}
+
+#message{
+    width:100%;
+    height: 150px;
+    border-color: #cccccc;
+}
+
+.submitButton{
+    background-color: teal;
+    color: white;
+    width: 100px;
+    height:40px;
+}
+
+/*Media Queries*/
+
+/*1*/
+
+@media only screen and (max-width: 980px){
+
+    #about{
+        width:646px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    #about{
+        width:384px;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    #about{
+        width:160px;
+    }
+
+}
+
+/*2*/
+@media only screen and (max-width: 980px){
+
+    #aboutportfolio{
+        width:646px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    #aboutportfolio{
+        width:384px;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    #aboutportfolio{
+        width:160px;
+        height: 1800px
+    }
+    #rpg{
+        margin-left: 0px;
+        margin-top: 350px
+    }
+
+    #trivia{
+        margin-top: 700px;
+    }
+
+    #rutgers{
+        margin-left: 0px;
+        margin-top: 1050px;
+    }
+    #rock{
+        margin-top: 1400px;
+    }
+    
+}
+
+/*3*/
+
+@media only screen and (max-width: 980px){
+
+    #about{
+        width:646px;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+
+    #about{
+        width:384px;
+    }
+
+}
+
+@media only screen and (max-width: 640px){
+
+    #about{
+        width:160px;
+    }
